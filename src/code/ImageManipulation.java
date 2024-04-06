@@ -9,9 +9,8 @@ public class ImageManipulation {
      *  Write a statement that will display the image in a window
      */
     public static void main(String[] args) {
-        //APImage image = new APImage("cyberpunk2077.jpg");
-        //image.draw();
-        edgeDetection("cyberpunk2077.jpg", 20);
+        APImage image = new APImage("cyberpunk2077.jpg");
+        image.draw();
     }
 
     /** CHALLENGE ONE: Grayscale
